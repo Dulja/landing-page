@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: aquamarine;
+}
+.links > * {
+    padding: 12px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+    background-color: blue;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    align-items: flex-start;
+}
+
+.intro > div {
+    padding-bottom: 10px;
+}
+
+.main {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+
+img {
+    border: 1px solid white;
+    margin: 10px;
+}
+
+button {
+    padding: 8px;
+    margin: 0px;
+    border-radius: 12px;
+    border-style: none;
+}
