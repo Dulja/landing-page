@@ -145,11 +145,22 @@ button {
     padding: 4px 16px;
     color: white;
     margin-left: 20px;
+    font-weight: 600;
 }
 
 .small {
     font-size: 13px;
     font-weight: 550;
     color: lightblue;
+}
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    padding: 20px 0px;
+    opacity: 0.9;
+    font-size: 13px;
 }
