@@ -74,6 +74,7 @@ button {
     max-width: 175px;
     text-align: center;
     padding: 0px 16px;
+    max-width: 23%;
 }
 
 .info> img {
@@ -83,7 +84,6 @@ button {
 
 .info> div {
     padding: 12px 0px;
-    max-width: 120px;
     font-size: 12px;
     opacity: 0.8;
 
@@ -95,4 +95,26 @@ button {
     font-weight: 600;
     padding: 0px 0px 30px;
     opacity: 0.85;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 140px;
+    background-color: lightgrey;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 26px;
+    font-style: italic;
+    opacity: 0.75;
+}
+
+.person {
+    align-self: flex-end;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-right: 28px;
+    font-size: 20px;
 }
