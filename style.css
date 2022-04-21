@@ -30,6 +30,7 @@ body {
     flex-direction: column;
     max-width: 350px;
     align-items: flex-start;
+    margin-right: 24px;
 }
 
 .intro > div {
@@ -44,7 +45,8 @@ body {
 
 img {
     border: 1px solid white;
-    margin: 10px;
+    flex: 1;   
+    border-radius: 12px; 
 }
 
 button {
@@ -52,4 +54,45 @@ button {
     margin: 0px;
     border-radius: 12px;
     border-style: none;
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua  ;
+    padding: 36px 0px 70px;
+}
+
+.info-cont {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+
+.info {
+    max-width: 175px;
+    text-align: center;
+    padding: 0px 16px;
+}
+
+.info> img {
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.info> div {
+    padding: 12px 0px;
+    max-width: 120px;
+    font-size: 12px;
+    opacity: 0.8;
+
+}
+
+.mid-header {
+    font-size: 26px;
+    color: black;
+    font-weight: 600;
+    padding: 0px 0px 30px;
+    opacity: 0.85;
 }
